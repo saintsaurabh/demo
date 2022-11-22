@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "name": "Nokia 5.1 plus",
+    "specification": "8/128",
+    "image": "https://cdn.pixabay.com/photo/2015/09/06/00/50/nokia-926756_1280.jpg"
+}, {
+    "id": 2,
+    "name": "Samsung Galaxy",
+    "specification": "6/256",
+    "image": "https://cdn.pixabay.com/photo/2022/03/12/09/23/smartphone-7063761__480.jpg"
+}, {
+    "id": 3,
+    "name": "iPhone 14",
+    "specification": "4/64",
+    "image": "https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304__480.jpg"
+}, {
+    "id": 4,
+    "name": "Poco X2",
+    "specification": "6/128",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kg15ocw0/cases-covers/back-cover/y/u/a/aspir-aspgkk-p0c0-x2-red-original-imafwcw7h7h2pghz.jpeg?q=70"
+}, {
+    "id": 5,
+    "name": "Oppo f17",
+    "specification": "8/256",
+    "image": "https://htcms-prod-images.s3.ap-south-1.amazonaws.com/htmobile4/P35300/heroimage/140632-v5-oppo-f17-pro-diwali-edition-mobile-phone-large-1.jpg"
+}]

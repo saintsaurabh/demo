@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center" style="margin-top: 10px;" *ngFor="let device of devices">
+    <div class="card" style="width: 18rem;">
+        <img src={{device.image}} class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">{{device.name}}</h5>
+            <p class="card-text">{{device.specification}}</p>
+            <p class="card-text">₹8,989</p>
+        </div>
+    </div>
+</div>
