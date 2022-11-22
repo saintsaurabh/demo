@@ -21,6 +21,7 @@ export class AddCartService {
     this.getTotalPrice();
     console.log(this.cartItemList)
   }
+
   getTotalPrice() : number{
     let grandTotal = 0;
     this.cartItemList.map((a:any)=>{
@@ -28,6 +29,7 @@ export class AddCartService {
     })
     return grandTotal;
   }
+
   removeCartItem(product: any){
     this.cartItemList.map((a:any, index:any)=>{
       if(product.id=== a.id){
@@ -36,6 +38,7 @@ export class AddCartService {
     })
     this.productList.next(this.cartItemList);
   }
+  
   removeAllCart(){
     this.cartItemList = []
     this.productList.next(this.cartItemList);
