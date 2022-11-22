@@ -1,10 +1,15 @@
-<div class="d-flex justify-content-center" style="margin-top: 10px;" *ngFor="let device of devices">
-    <div class="card" style="width: 18rem;">
-        <img src={{device.image}} class="card-img-top">
-        <div class="card-body">
-            <h5 class="card-title">{{device.name}}</h5>
-            <p class="card-text">{{device.specification}}</p>
-            <p class="card-text">₹8,989</p>
-        </div>
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let device of devices">
+            <div class="card col-md-3">
+                <img src="{{device.image}}" alt="">
+                <h5 class="float">{{device.name}}</h5>
+                <p class="float">{{device.specification}}</p>
+                <p class="float">{{device.description}}</p>
+                <p><strong>Price:</strong> ₹{{device.price}}</p>
+                <button class="btn btn-primary" (click)=addtocart(device)>Add to cart</button>
+            </div>
+        </ng-container>
+
     </div>
 </div>

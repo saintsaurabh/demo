@@ -1,26 +1,37 @@
 [{
     "id": 1,
     "name": "Nokia 5.1 plus",
-    "specification": "8/128",
-    "image": "https://cdn.pixabay.com/photo/2015/09/06/00/50/nokia-926756_1280.jpg"
+    "specification": "8GB/128GB",
+    "image": "https://cdn.pixabay.com/photo/2015/09/06/00/50/nokia-926756_1280.jpg",
+    "price": 10000,
+    "description": "The big HD+ 5.8 display with a 19:9 ratio maximises your viewing experience. Exquisite design with attention to details. Advanced photography with the 13 MP rear camera and the 8 MP front camera. AI assistance takes photos to the next level with features including bokeh blur and portrait lighting."
+
 }, {
     "id": 2,
     "name": "Samsung Galaxy",
-    "specification": "6/256",
-    "image": "https://cdn.pixabay.com/photo/2022/03/12/09/23/smartphone-7063761__480.jpg"
+    "specification": "6GB/256GB",
+    "image": "https://cdn.pixabay.com/photo/2022/03/12/09/23/smartphone-7063761__480.jpg",
+    "price": 10010,
+    "description": "Samsung Galaxy is Samsung Electronics' flagship line of Android smartphones and tablets. The original Samsung Galaxy smartphone debuted in 2009, and the line's first tablet, the Samsung Galaxy Tab, came out the following year."
 }, {
     "id": 3,
     "name": "iPhone 14",
-    "specification": "4/64",
-    "image": "https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304__480.jpg"
+    "specification": "4GB/64GB",
+    "image": "https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304__480.jpg",
+    "price": 10020,
+    "description": "The iPhone 14 looks identical to the iPhone 13, but there's a new 6.7-inch model called the iPhone 14 Plus. Under-the-hood improvements include 6GB of RAM, a 5-core GPU, Bluetooth 5.3, and multiple camera updates."
 }, {
     "id": 4,
     "name": "Poco X2",
-    "specification": "6/128",
-    "image": "https://rukminim1.flixcart.com/image/312/312/kg15ocw0/cases-covers/back-cover/y/u/a/aspir-aspgkk-p0c0-x2-red-original-imafwcw7h7h2pghz.jpeg?q=70"
+    "specification": "6GB/128GB",
+    "image": "https://rukminim1.flixcart.com/image/312/312/kg15ocw0/cases-covers/back-cover/y/u/a/aspir-aspgkk-p0c0-x2-red-original-imafwcw7h7h2pghz.jpeg?q=70",
+    "price": 10030,
+    "description": "The POCO X2 features a 6.67inch(16.94 inches) IPS LCD bezel-less, punch-hole display. The smartphone gets a screen resolution of 1080x2400 pixels with a pixel resolution of 395ppi, besides a refresh rate of 120Hz and Corning Gorilla Glass v5 protection."
 }, {
     "id": 5,
     "name": "Oppo f17",
-    "specification": "8/256",
-    "image": "https://htcms-prod-images.s3.ap-south-1.amazonaws.com/htmobile4/P35300/heroimage/140632-v5-oppo-f17-pro-diwali-edition-mobile-phone-large-1.jpg"
+    "specification": "8GB/256GB",
+    "image": "https://htcms-prod-images.s3.ap-south-1.amazonaws.com/htmobile4/P35300/heroimage/140632-v5-oppo-f17-pro-diwali-edition-mobile-phone-large-1.jpg",
+    "price": 10040,
+    "description": "OPPO F17 features a 6.44-inch FHD+ Super AMOLED display, having a screen resolution of 1080 x 2400 pixels. The smartphone features a pixel density of 409ppi along with an aspect ratio of 20:9. Further, its bezel-less waterdrop notch display is protected by Corning Gorilla Glass v3."
 }]

@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { ProductDetailsComponent } from './product/product-details/product-details.component';
 import { CustomErrorComponent } from './custom-error/custom-error.component';
+import { AddToCartComponent } from './product/add-to-cart/add-to-cart.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,9 @@ const routes: Routes = [
   },
   {
     path:'product/product-details', component:ProductDetailsComponent
+  },
+  {
+    path:'cart', component:AddToCartComponent
   },
   {
     path:'', redirectTo:"/home", pathMatch:"full"

@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProductDetailsComponent } from './product/product-details/product-details.component';
 import { CustomErrorComponent } from './custom-error/custom-error.component';
 import { HttpClientModule} from '@angular/common/http';
+import { AddToCartComponent } from './product/add-to-cart/add-to-cart.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { HttpClientModule} from '@angular/common/http';
     ProductComponent,
     ContactComponent,
     ProductDetailsComponent,
-    CustomErrorComponent
+    CustomErrorComponent,
+    AddToCartComponent
   ],
   imports: [
     BrowserModule,
