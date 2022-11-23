@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AddCartService } from './add-cart.service';
+import { AddCartService } from './Service/add-cart.service';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this._addcartService.getProducts()
-      .subscribe(res => this.totalItem = res.length)
+      .subscribe(res => this.totalItem = res.length);
   }
 
 }

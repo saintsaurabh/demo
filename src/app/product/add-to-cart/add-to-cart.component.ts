@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AddCartService } from 'src/app/add-cart.service';
+import { AddCartService } from 'src/app/Service/add-cart.service';
 
 @Component({
   selector: 'app-add-to-cart',
@@ -17,7 +17,8 @@ export class AddToCartComponent implements OnInit {
     this._addcartService.getProducts()
       .subscribe(res => {
         this.products = res;
-        this.grandTotal = this._addcartService.getTotalPrice();})
+        this.grandTotal = this._addcartService.getTotalPrice();
+      });
   }
 
   removeItem(item: any) {

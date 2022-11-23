@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DevicesService } from '../devices.service';
+import { DevicesService } from '../Service/devices.service';
 
 @Component({
   selector: 'app-home',
